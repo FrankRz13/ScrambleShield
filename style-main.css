@@ -1,0 +1,213 @@
+body {
+    background-color: #F3F5FC;
+  }
+  
+#logo {
+    position: absolute;
+    left: 10px;
+    top: 22px;
+    width: 50px;
+    height: 50px;
+    background-color: #F3F5FC
+}
+
+.titulo-principal{
+    position: absolute;
+    padding-left: 60px;
+    font-style: normal;
+    font-size: 30px;
+    color: #0A3871;   
+    font-family:Georgia; 
+    
+}
+
+#caracter {
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 50px;
+    width: 20px;
+    height: 20px;
+}
+
+.leyenda {
+    position: absolute;
+    color: #495057;
+    font-size: 18px;
+    width: 600px;
+    height: 20px;
+    font-weight: 400px;
+    opacity: 60%;
+    margin-left: 70px;
+    margin-top: 75px;
+    font-family: 'Cambria';
+    font-style: normal;
+} 
+
+.into-messagge {
+    position: absolute;
+    margin-top: 100px;
+    left: 5%  ;
+    width: 550px;
+    height: 350px;
+    border:none;
+    border-radius: 30px;
+    background-color: white;
+    overflow: auto;
+    align-items: center; 
+
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    color: darkgreen;
+    font-weight:700;
+    font-style: normal;
+    font-size: 25px;
+    font-family:Helvetica;
+}
+
+.input-cifrado {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 715px;
+    width: 550px;
+    height: 350px;
+    border: none;
+    border-radius: 30px;
+    background-color: white;
+    overflow: auto;
+    align-items: center;
+    
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    color: darkred;
+    font-weight:700;
+    font-style: normal;
+    font-size: 25px;
+    font-family:Helvetica;
+}
+
+.into-messagge::placeholder,.input-cifrado::placeholder {
+    position: relative;
+    width:auto;
+    height: auto;
+    padding-top: 50%;
+    padding-left: 7%;
+    padding-right: 7%;
+    color: #0a3871;
+    font-style: bold;
+    font-size: 25px;
+    text-align: center;
+    font-family:Helvetica;
+
+    background-image: url("Imagenes/nomessagge.png");
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.boton-encriptar {
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 220px;
+    width: 250px;
+    height: 70px;
+    padding: 24px;
+    background: #0A3871;
+    border: 1px solid #D8DFE8;
+    border-radius: 24px;
+    cursor: pointer;
+
+    color: #D8DFE8;
+    font-family:Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 19px;
+    text-align: center;
+    
+}
+
+.boton-desencriptar{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 750px;
+    width: 250px;
+    height: 70px;
+    padding: 24px;
+    background: #0A3871;
+    border: 1px solid #D8DFE8;
+    border-radius: 24px;
+    cursor: pointer;
+
+    color: #D8DFE8;
+    font-family:Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 19px;
+    text-align: center; 
+}
+
+.boton-copiar {
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 1020px;
+    width: 250px;
+    height: 70px;
+    padding: 24px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    cursor: pointer;
+
+    color: #0A3871;    
+    font-family:Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 19px;
+    text-align: center;
+    
+  }
+
+.pie button{
+    position:absolute;
+    bottom: 20px;
+    right: 42%;
+    display:block;
+    width: 210px;
+    height: 50px;
+    background: #033474;
+    border: 1px solid #d9dce0;
+    border-radius: 10px;
+    cursor: pointer;
+
+    font-family: 'Georgia';
+    font-style: bold;
+    font-size: 20px;
+    line-height: 10px;
+    text-align: right;
+    
+    background-image: url("Imagenes/in.png");
+    background-position: left;
+    background-size: 30px;
+    background-repeat: no-repeat;
+
+}
+
+#link{
+    color: white;
+}
+
+  @media screen and (max-width: 600px) {
+    .input-cifrado {
+      position: relative;
+      top: 50px;
+    }
+    .boton-desencriptar, .boton-copiar {
+      position: relative;
+      top: 50px;
+    }
+  }
+  
