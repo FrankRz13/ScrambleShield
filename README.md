@@ -1,4 +1,4 @@
-# ScrambleShield(https://frankrz13.github.io/ScrambleShield/)
+# [ScrambleShield](https://frankrz13.github.io/ScrambleShield/)
 
 ScrambleShield es una herramienta de cifrado de sustitución que permite encriptar y desencriptar mensajes mediante una tabla de sustitución personalizada.
 
@@ -30,4 +30,4 @@ ScrambleShield es una herramienta de cifrado de sustitución que permite encript
 
 
 ## Autor
-ScrambleShield fue creado por **Francisco Reyes**. Puede encontrar más información sobre el autor en su perfil de LinkedIn: [https://www.linkedin.com/in/francisco-reyes-mechatronic98/](https://www.linkedin.com/in/francisco-reyes-mechatronic98/)
+ScrambleShield fue creado por **Francisco Reyes**. Puede encontrar más información sobre el autor en su perfil de LinkedIn: [Francisco Reyes](https://www.linkedin.com/in/francisco-reyes-mechatronic98/)
